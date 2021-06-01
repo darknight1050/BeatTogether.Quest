@@ -45,3 +45,11 @@ ndkpath.txt
 *.zip
 extern/
 qpm.shared.json
+Android.mk.backup
+
+# QuestPatcher mods
+*.qmod
+
+# Logs
+*.log
+/.vs
