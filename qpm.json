@@ -4,14 +4,28 @@
   "info": {
     "name": "BeatTogether",
     "id": "BeatTogether",
-    "version": "1.2.1",
+    "version": "1.0.0",
     "url": null,
     "additionalData": {}
   },
   "dependencies": [
     {
-      "id": "songloader",
-      "versionRange": "^0.2.5",
+      "id": "beatsaber-hook",
+      "versionRange": "^0.8.4",
+      "additionalData": {
+        "extraFiles": [
+          "src/inline-hook"
+        ]
+      }
+    },
+    {
+      "id": "codegen",
+      "versionRange": "*",
+      "additionalData": {}
+    },
+    {
+      "id": "libil2cpp",
+      "versionRange": "*",
       "additionalData": {}
     }
   ],
